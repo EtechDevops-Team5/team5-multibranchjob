@@ -12,5 +12,10 @@ pipeline{
 				sh 'echo "Deploying Code"'
 			}
 		}
+		stage('3-testing codes'){
+			steps{
+				sh 'lscpu'
+			}
+		}
 	}
 }
